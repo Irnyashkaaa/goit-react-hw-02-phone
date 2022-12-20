@@ -1,0 +1,14 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+input {
+    margin: 5px
+}
+
+button {
+    margin: 5px;
+    cursor: pointer;
+}
