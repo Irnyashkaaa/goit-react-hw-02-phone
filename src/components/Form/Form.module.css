@@ -4,8 +4,11 @@ form {
     width: fit-content;
 }
 
-input {
+label {
     margin: 5px
+}
+.filter {
+    margin: 5px;
 }
 
 button {

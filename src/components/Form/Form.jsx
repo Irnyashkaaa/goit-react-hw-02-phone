@@ -7,6 +7,7 @@ export const Form = ({ name, nameOnChange, number, numberOnChange, submitButton 
     
     return <form action="">
         <label htmlFor="name">
+            <div>Name</div>
             <input
                 value={name} 
                 onChange={nameOnChange}
@@ -18,6 +19,7 @@ export const Form = ({ name, nameOnChange, number, numberOnChange, submitButton 
             />
         </label>
         <label htmlFor="number">
+        <div>Number</div>
             <input
                 value={number}
                 onChange={numberOnChange}
