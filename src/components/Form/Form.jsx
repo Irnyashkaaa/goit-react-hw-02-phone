@@ -1,10 +1,12 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import s from './Form.module.css'
+
 
 export const Form = ({ name, nameOnChange, number, numberOnChange, submitButton }) => {
     
     return <form action="">
-        <label htmlFor="">
+        <label htmlFor="name">
             <input
                 value={name} 
                 onChange={nameOnChange}
@@ -15,7 +17,7 @@ export const Form = ({ name, nameOnChange, number, numberOnChange, submitButton 
                 required
             />
         </label>
-        <label htmlFor="">
+        <label htmlFor="number">
             <input
                 value={number}
                 onChange={numberOnChange}
